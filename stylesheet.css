@@ -39,7 +39,8 @@ html,body{
 
 }
 #loading{
-    margin: visible;
+    max-width: 50%;
+    object-fit: contain;
     animation-name: shuriken, spin;
     animation-duration: 4s;
     opacity: 1;
