@@ -1,5 +1,5 @@
 html,body{
-    background-image: linear-gradient(45deg,#0060cf,#0094cf,#007ccf,#00c4ba);
+    
     margin: 0;
     height: 100%;
     text-align: center;
@@ -11,37 +11,85 @@ html,body{
 }
 
 @keyframes box {
+<<<<<<< HEAD
     0% {height: 0px; width: 0px;}
     50% {height: 50%; width: 50%;}
     100% {height: 99%; width: 99%;}
+=======
+    0% {height: 0px; width: 0px; border-radius: 10px;}
+	50% {height: 50%; width: 50%;}
+    100% {height: 100%; width: 100%;border-radius: 0px;}
+>>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
 }
 @keyframes shuriken{
     0% {opacity: 0;}
     50% {opacity: 0;}
     100% {opacity: 1;}
 }
-@keyframes spin { 
-    100% { 
-        transform: rotate(360deg);
-    } 
+@keyframes transform{
+    0%{
+        transform: scale(1) rotate(0deg);
+        top: 25%;
+    }
+    50%{
+        transform: scale(1) rotate(0deg);
+        top: 25%;
+    }
+    100%{
+        transform: scale(0.5) rotate(360deg);
+        top: -12%;
+    }
 }
-#sub{
+#main{
+	background-image: linear-gradient(45deg,#0060cf,#0094cf,#007ccf,#00c4ba);
+	position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    border: black 2px solid;
-    border-radius: 10px;
     animation-name: box;
+<<<<<<< HEAD
     animation-duration: 2s;
     height: 99%;
     width: 99%;
 
+=======
+    animation-duration: 1s;
+	animation-timing-function: linear;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+>>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
 }
 #loading{
-    max-width: 50%;
+    display: block;
+    position: absolute;
     object-fit: contain;
-    animation-name: shuriken, spin;
-    animation-duration: 4s;
+    width: 50%;
+    top: -12%;
+    max-height: 50%;
+    animation-name: shuriken, transform;
+    animation-duration: 3s, 6s;
+    animation-timing-function: ease;
     opacity: 1;
+<<<<<<< HEAD
 }
+=======
+    transform: scale(0.5) rotate(360deg);
+}
+#links{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: black 2px solid;
+    transform: translateY(25%);
+    height: 50%;
+    width: 250px;
+    animation-name: shuriken;
+    animation-duration: 6s;
+}
+
+>>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
