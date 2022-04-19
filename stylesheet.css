@@ -20,7 +20,7 @@ html,body{
     50% {opacity: 0;}
     100% {opacity: 1;}
 }
-@keyframes transform{
+@keyframes transforma{
     0%{
         transform: translateY(0%);
     }
@@ -49,7 +49,7 @@ html,body{
     position: absolute;
     max-width: 50%;
     object-fit: contain;
-    animation-name: shuriken, transform;
+    animation-name: shuriken, transforma;
     animation-duration: 3s, 6s;
     opacity: 1;
     transform: translateY(-75%) scale(0.5) rotate(360deg);
