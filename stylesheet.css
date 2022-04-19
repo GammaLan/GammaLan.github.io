@@ -24,9 +24,6 @@ html,body{
     0%{
         transform: translateY(0%) rotate(0deg) scale(1);
     }
-    50%{
-        transform: translateY(0%);
-    }
     100%{
         transform: translateY(-75%) rotate(360deg) scale(0.5);
     }
