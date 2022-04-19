@@ -70,16 +70,3 @@ html,body{
     animation-duration: 6s;
 }
 
-a{
-    margin: 10px;
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#name{
-    transform: translateY(-100%);
-}
-#navBar{
-    border: 2px black solid;
-}
