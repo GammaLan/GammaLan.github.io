@@ -55,13 +55,11 @@ html,body{
 #loading{
     display: block;
     max-width: 50%;
-    object-fit: contain;
     animation-name: shuriken, transform;
     animation-duration: 3s, 6s;
     animation-timing-function: ease;
     opacity: 1;
     transform: translateY(-75%) scale(0.5) rotate(360deg);
-    align-self: center;
 }
 #links{
     justify-content: center;
