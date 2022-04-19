@@ -49,8 +49,8 @@ html,body{
     position: absolute;
     max-width: 50%;
     object-fit: contain;
-    animation-name: shuriken, transform, scale;
-    animation-duration: 3s, 6s, 6s;
+    animation-name: shuriken, transform;
+    animation-duration: 3s, 6s;
     opacity: 1;
     transform: translateY(-75%) scale(0.5) rotate(360deg);
     align-self: center;
