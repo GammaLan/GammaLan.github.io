@@ -20,19 +20,23 @@ html,body{
     50% {opacity: 0;}
     100% {opacity: 1;}
 }
-@keyframes transforma{
+@keyframes transform{
     0%{
-        transform: translate(0,0%);
-        -webkit-transform: -webkit-translate(0,0%);
-        -ms-transform: translate(0,0%);
+        transform: translateY(0%) scale(1) rotate(0deg);
+        -ms-transform: translateY(0%) scale(1) rotate(0deg);
+        -webkit-transform: translateY(0%) scale(1) rotate(0deg);
+    }
+    50%{
+        transform: translateY(0%) scale(1) rotate(0deg);
+        -ms-transform: translateY(0%) scale(1) rotate(0deg);
+        -webkit-transform: translateY(0%) scale(1) rotate(0deg);
     }
     100%{
-        transform: translate(0,-75%);
-        -webkit-transform: -webkit-translate(0,-75%);
-        -ms-transform: translate(0,-75%);
+        transform: translateY(-75%) scale(0.5) rotate(360deg);
+        -ms-transform: translateY(-75%) scale(0.5) rotate(360deg);
+        -webkit-transform: translateY(-75%) scale(0.5) rotate(360deg);
     }
 }
-
 #main{
 	background-image: linear-gradient(45deg,#0060cf,#0094cf,#007ccf,#00c4ba);
 	position: absolute;
@@ -53,10 +57,10 @@ html,body{
     position: absolute;
     max-width: 50%;
     object-fit: contain;
-    animation-name: shuriken, transforma;
+    animation-name: shuriken, transform;
     animation-duration: 3s, 6s;
     opacity: 1;
-    transform: translate(0,-75%) scale(0.5) rotate(360deg);
+    transform: translateY(-75%) scale(0.5) rotate(360deg);
     align-self: center;
 }
 #links{
@@ -73,4 +77,3 @@ html,body{
     animation-duration: 6s;
 }
 
-/*fshjkadjfkdslkfasjd;kl*/
