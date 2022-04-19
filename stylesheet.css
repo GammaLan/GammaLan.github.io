@@ -22,7 +22,7 @@ html,body{
 }
 @keyframes spin { 
     100% { 
-        transform: rotate(360deg);
+        transform: translate(0,100px) rotate(360deg);
     } 
 }
 #sub{
