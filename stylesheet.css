@@ -45,6 +45,6 @@ html,body{
     max-width: 50%;
     object-fit: contain;
     animation-name: shuriken, spin;
-    animation-duration: 4s;
+    animation-duration: 4s,8s;
     opacity: 1;
 }
