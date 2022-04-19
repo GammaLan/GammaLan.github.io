@@ -23,12 +23,18 @@ html,body{
 @keyframes transform{
     0%{
         transform: translateY(0%) scale(1) rotate(0);
+        -ms-transform: translateY(0%) scale(1) rotate(0deg);
+        -webkit-transform: translateY(0%) scale(1) rotate(0deg);
     }
     50%{
         transform: translateY(0%) scale(1) rotate(0);
+        -ms-transform: translateY(0%) scale(1) rotate(0deg);
+        -webkit-transform: translateY(0%) scale(1) rotate(0deg);
     }
     100%{
         transform: translateY(-75%) scale(0.5) rotate(360deg);
+        -ms-transform: translateY(-75%) scale(0.5) rotate(360deg);
+        -webkit-transform: translateY(-75%) scale(0.5) rotate(360deg);
     }
 }
 #main{
