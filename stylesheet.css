@@ -28,6 +28,19 @@ html,body{
         transform: translateY(5em) rotate(360deg);
     } 
 }
+
+@keyframes moving{
+    0%{
+        transform: translateY(0%) scale(1) rotate(0);
+    }
+    50%{
+        transform: translateY(0%) scale(1) rotate(0);
+    }
+    100%{
+        transform: translateY(-75%) scale(0.5) rotate(360deg);
+    }
+}
+
 #sub{
     display: flex;
     align-items: center;
@@ -42,10 +55,10 @@ html,body{
 
 }
 #loading{
-    transform: translateY(5em);
+    transform: translateY(-75%) scale(0.5) rotate(360deg);
     max-width: 50%;
     object-fit: contain;
-    animation-name: shuriken, spin;
+    animation-name: shuriken, moving;
     animation-duration: 4s,8s;
     opacity: 1;
 }
