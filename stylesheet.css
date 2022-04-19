@@ -53,7 +53,6 @@ html,body{
     flex-direction: column;
 }
 #loading{
-    display: block;
     max-width: 50%;
     animation-name: shuriken, transform;
     animation-duration: 3s, 6s;
