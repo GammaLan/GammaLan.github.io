@@ -21,8 +21,11 @@ html,body{
     100% {opacity: 1;}
 }
 @keyframes spin { 
+    0% { 
+        transform: translateY(0em) rotate(0deg);
+    } 
     100% { 
-        transform: translateY(999em) rotate(360deg);
+        transform: translateY(1em) rotate(360deg);
     } 
 }
 #sub{
