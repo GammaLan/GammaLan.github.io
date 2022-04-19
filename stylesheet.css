@@ -22,12 +22,12 @@ html,body{
 }
 @keyframes transform{
     0%{
-        transform: translateY(0%) scale(1) rotate(0);
+        transform: translateY(0%) scale(1) rotate(0deg);
         -ms-transform: translateY(0%) scale(1) rotate(0deg);
         -webkit-transform: translateY(0%) scale(1) rotate(0deg);
     }
     50%{
-        transform: translateY(0%) scale(1) rotate(0);
+        transform: translateY(0%) scale(1) rotate(0deg);
         -ms-transform: translateY(0%) scale(1) rotate(0deg);
         -webkit-transform: translateY(0%) scale(1) rotate(0deg);
     }
