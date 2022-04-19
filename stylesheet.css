@@ -53,6 +53,7 @@ html,body{
     flex-direction: column;
 }
 #loading{
+    display: block;
     position: absolute;
     max-width: 50%;
     object-fit: contain;
