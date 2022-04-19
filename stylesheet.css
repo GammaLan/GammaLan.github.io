@@ -11,15 +11,9 @@ html,body{
 }
 
 @keyframes box {
-<<<<<<< HEAD
     0% {height: 0px; width: 0px;}
     50% {height: 50%; width: 50%;}
     100% {height: 99%; width: 99%;}
-=======
-    0% {height: 0px; width: 0px; border-radius: 10px;}
-	50% {height: 50%; width: 50%;}
-    100% {height: 100%; width: 100%;border-radius: 0px;}
->>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
 }
 @keyframes shuriken{
     0% {opacity: 0;}
@@ -48,19 +42,10 @@ html,body{
     justify-content: center;
     margin: auto;
     animation-name: box;
-<<<<<<< HEAD
     animation-duration: 2s;
     height: 99%;
     width: 99%;
 
-=======
-    animation-duration: 1s;
-	animation-timing-function: linear;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    flex-direction: column;
->>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
 }
 #loading{
     display: block;
@@ -73,23 +58,4 @@ html,body{
     animation-duration: 3s, 6s;
     animation-timing-function: ease;
     opacity: 1;
-<<<<<<< HEAD
 }
-=======
-    transform: scale(0.5) rotate(360deg);
-}
-#links{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    border: black 2px solid;
-    transform: translateY(25%);
-    height: 50%;
-    width: 250px;
-    animation-name: shuriken;
-    animation-duration: 6s;
-}
-
->>>>>>> 90761fc56e63e43ce153771d14f2b1f955c7a9e5
