@@ -31,13 +31,13 @@ html,body{
 
 @keyframes moving{
     0%{
-        transform: translateY(0%) scale(1) rotate(0);
+        transform: translateY(0) scale(1) rotate(0);
     }
     50%{
-        transform: translateY(0%) scale(1) rotate(0);
+        transform: translateY(0) scale(1) rotate(0);
     }
     100%{
-        transform: translateY(-75%) scale(0.5) rotate(360deg);
+        transform: translateY(-7.5em) scale(0.5) rotate(360deg);
     }
 }
 
@@ -55,7 +55,7 @@ html,body{
 
 }
 #loading{
-    transform: translateY(-75%) scale(0.5) rotate(360deg);
+    transform: translateY(-7.5em) scale(0.5) rotate(360deg);
     max-width: 50%;
     object-fit: contain;
     animation-name: shuriken, moving;
