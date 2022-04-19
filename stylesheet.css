@@ -52,6 +52,7 @@ html,body{
 #loading{
     display: block;
     position: absolute;
+    object-fit: contain;
     top: -12%;
     max-width: 50%;
     animation-name: shuriken, transform;
