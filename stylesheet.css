@@ -20,28 +20,20 @@ html,body{
     50% {opacity: 0;}
     100% {opacity: 1;}
 }
-@keyframes spin { 
-    0% { 
-        transform: translateY(0em) rotate(0deg);
-    } 
-    100% { 
-        transform: translateY(5em) rotate(360deg);
-    } 
-}
-
-@keyframes moving{
+@keyframes transform{
     0%{
-        transform: translateY(0) scale(1) rotate(0);
+        transform: translateY(0%) scale(1) rotate(0);
     }
     50%{
-        transform: translateY(0) scale(1) rotate(0);
+        transform: translateY(0%) scale(1) rotate(0);
     }
     100%{
         transform: translateY(-36.5vh) scale(0.5) rotate(360deg);
     }
 }
-
-#sub{
+#main{
+	background-image: linear-gradient(45deg,#0060cf,#0094cf,#007ccf,#00c4ba);
+	position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,11 +47,10 @@ html,body{
 }
 
 #loading{
-    transform: translateY(-37.5vh) scale(0.5) rotate(360deg);
-    max-width: 50%;
+    position: absolute;
     object-fit: contain;
-    animation-name: shuriken, moving;
-    animation-duration: 4s,8s;
+    animation-name: shuriken, transform;
+    animation-duration: 3s, 6s;
     opacity: 1;
     transform: translateY(-36.5vh) scale(0.5) rotate(360deg);
     align-self: center;
