@@ -1,4 +1,6 @@
 ---
-title: "Welcome to Blowfish!"
-description: "This is a demo of adding content to the homepage."
+title: "List of Blogs"
+description: "All of the blogs I have made."
+cascade:
+  showReadingTime: false
 ---
